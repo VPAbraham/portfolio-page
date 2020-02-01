@@ -10,9 +10,9 @@ class Home extends Component {
   }
   render() {
     return (
-    <div>
+    <body class="home">
       <Heading/>
-    </div>
+    </body>
     )
   }
 }
