@@ -1,0 +1,9 @@
+$black-color: rgb(31, 31, 31);
+$white-color: rgb(230, 230, 230);
+
+.header {
+  font-family: 'Playfair Display', serif;
+  font-weight: 900;
+  background: $black-color;
+  color: $white-color;
+}
