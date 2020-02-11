@@ -1,0 +1,20 @@
+$black-color: rgb(31, 31, 31);
+$white-color: rgb(230, 230, 230);
+$color-grey-dark: #777;
+
+$font-serif: 'Playfair Display', serif;
+$font-sans-serif: 'Montserrat', sans-serif;
+
+
+.skills {
+  p {
+    text-transform: uppercase;
+    font-family: $font-sans-serif;
+  }
+  &__logos {
+    display: flex;
+    &--logo {
+      height: 3rem;
+    }
+  }
+}
