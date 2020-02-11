@@ -1,5 +1,10 @@
 $black-color: rgb(31, 31, 31);
 $white-color: rgb(230, 230, 230);
+$color-grey-dark: #777;
+
+$font-serif: 'Playfair Display', serif;
+$font-sans-serif: 'Montserrat', sans-serif;
+
 
 .header {
   // background: $black-color;
@@ -18,16 +23,12 @@ $white-color: rgb(230, 230, 230);
     letter-spacing: .3rem;
     text-transform: uppercase;
     animation: moveInTop 1s ease-out;
-
     &__left {
 
     }
+
     &__right {
       display: flex;
-
-      p {
-        margin: 0 2rem;
-      }
     }
   }
 
@@ -125,3 +126,100 @@ $white-color: rgb(230, 230, 230);
     transform: translate(0);
   }
 }
+
+@keyframes moveInBottom {
+  0% {
+    opacity: 0;
+    transform: translateY(3rem)
+  }
+
+  100% {
+    opacity: 1;
+    transform: translate(0);
+  }
+}
+.page-link {
+  &:link,
+  &:visited {
+    text-transform: uppercase;
+    margin: 0 2rem;
+    color: $white-color;
+    text-decoration: none;
+  }
+
+  &:hover {
+    transform: translateY(-3px);
+  }
+
+  &:active {
+    transform: translateY(-1px);
+  }
+}
+
+.btn {
+  &:link,
+  &:visited {
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: 1.5rem 4rem;
+    display: inline-block;
+    border-radius: 10rem;
+    transition: all .2s;
+    position: relative;
+    font-size: 1.7rem;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+  }
+
+  &:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 1rem 2rem rgba(black, .2);
+
+    &::after {
+      transform: scaleX(1.4) scaleY(1.6)
+    }
+  }
+
+  &:active {
+    transform: translateY(-1px);
+  }
+
+  &--work {
+    background-color: $white-color;
+    color: rgb(83, 83, 83);
+
+    &::after {
+      background-color: $white-color;
+    }
+  }
+
+  &--animated {
+    animation: moveInBottom .5s ease-out .65s;
+    animation-fill-mode: backwards;
+  }
+}
+
+.header__skills-box {
+  position: relative;
+  top: 76vh;
+
+  p {
+    text-transform: uppercase;
+    font-family: $font-sans-serif;
+    display: block;
+    margin: auto;
+  }
+
+  .skills-logos-box {
+    display: flex;
+    position: absolute;
+    left: 50%;
+    top: 20px;
+    .skill-logo {
+      height: 3rem;
+      position: absolute;
+    }
+  }
+}
+
+
