@@ -23,8 +23,7 @@ const Heading = () => {
           </h1>
       </div>
       <div class="header__button-box">
-            <a href="#" class="btn btn--work btn--animated">Proceed with caution</a>
-            <p>↓</p>   
+            <a href="#" class="btn btn--work btn--animated">↓ View My Work ↓</a>
           </div>
     </header>
   )
