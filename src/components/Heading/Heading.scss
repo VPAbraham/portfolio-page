@@ -1,4 +1,4 @@
-$black-color: rgb(31, 31, 31);
+$black-color: #202020;
 $white-color: rgb(230, 230, 230);
 $red-color: rgb(247, 71, 78);
 $color-grey-dark: rgb(119, 119, 119);
@@ -12,24 +12,34 @@ $font-sans-serif: 'Montserrat', sans-serif;
   font-size: 4rem;
   position: relative;
   height: 100vh;
-  // background-position: top;
-  // background-size: cover;
-  // background-image: linear-gradient(
-  //   to right bottom,
-  //   rgba(rgb(221, 221, 221), .6),
-  //   rgba(rgb(10, 10, 10), .7)),
-  //   url(../../assets/images/working.jpg);
+  background-position: top;
+  background-size: cover;
+  background-image: linear-gradient(
+    to right bottom,
+    rgba(rgb(67, 67, 67), .6),
+    rgba(rgb(10, 10, 10), .7)),
+    url(../../assets/images/working.jpg);
 
   &__nav {
     display: flex;
     justify-content: space-between;
     font-family: 'Montserrat', sans-serif;
-    font-size: 2.2rem;
+    font-size: 2rem;
     letter-spacing: .3rem;
     text-transform: uppercase;
     animation: moveInTop 1s ease-out;
+    padding: 2rem;
+    background-color: rgba(34, 34, 34, 0.577);
+
+
     &__left {
       color: $red-color;
+    }
+
+
+    &__left:link {
+      color: $red-color;
+      text-decoration: none;
     }
 
     &__right {
@@ -53,7 +63,6 @@ $font-sans-serif: 'Montserrat', sans-serif;
     left: 50%;
     transform: translate(-50%, -50%);
     text-align: center;
- 
     background-size: cover;
     background-position: top;
     width: 50%;
@@ -182,8 +191,8 @@ $font-sans-serif: 'Montserrat', sans-serif;
   }
 
   &:hover {
-    transform: translateY(-3px);
-    box-shadow: 0 1rem 2rem rgba(black, .2);
+    transform: translateY(-5px);
+    // box-shadow: 0 1rem 2rem rgba(black, .2);
 
     &::after {
       transform: scaleX(1.4) scaleY(1.6)

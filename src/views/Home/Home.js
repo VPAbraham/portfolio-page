@@ -13,7 +13,7 @@ class Home extends Component {
   render() {
     return (
     <body class="home">
-      <Heading/>
+      <p>Hayyyyyyyyy</p>
       <Skills />
       <Project />
     </body>

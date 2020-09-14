@@ -1,29 +1,48 @@
 import React from 'react';
 import './Heading.scss';
-import logo from '../../assets/images/logo.png'
 import { imageObject } from '../../assets/images/imageObject';
+import { Link } from 'react-router-dom';
 
-const Heading = () => {
+const Heading = (props) => {
   return (
-    <header class="header">
-      <div class="header__nav">
-        <div class="header__nav__left">
-        <h3>+_+</h3>
+    <header className="header">
+      <div className="header__nav">
+        <div className="header__nav__left">
+          <Link className='home_button' to='/'>
+            <h3>+_+</h3>
+          </Link>  
+        {/* <img src={imageObject.logo} /> */}
         </div>
-        <div class="header__nav__right">
-          <a href="#" class="page-link">About</a>
-          <a href="#" class="page-link">Contact</a>
+        <div className="header__nav__right">
+          <Link to="/about" className="page-link">
+            About
+          </Link>
+          <Link to="/contact" className="page-link">
+            Contact
+          </Link>
+          <Link to="/resume" className="page-link">
+            Resume
+          </Link>
         </div>
       </div>
-      <div class="header__text-box">
-          <h1 class="heading-primary">
-              <span class="heading-primary--main">Victor Abraham</span>
-              <span class="heading-primary--sub">Frontend Engineer</span>
-              <span class="heading-primary--sub">& UI Developer</span>
+      <div className="header__text-box">
+          <h1 className="heading-primary">
+              <span className="heading-primary--main">
+                Victor Abraham
+              </span>
+              <span className="heading-primary--sub">
+                -
+              </span>
+              <span className="heading-primary--sub">
+                Frontend Engineer
+              </span>
+              <span className="heading-primary--sub">
+                & UI Developer
+              </span>
           </h1>
       </div>
-      <div class="header__button-box">
-            <a href="#" class="btn btn--work btn--animated">↓ View My Work ↓</a>
+      <div className="header__button-box">
+            <a href="#" className="btn btn--work btn--animated">↓ View My Work ↓</a>
           </div>
     </header>
   )
