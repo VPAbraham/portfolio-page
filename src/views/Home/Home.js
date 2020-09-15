@@ -12,7 +12,6 @@ class Home extends Component {
   render() {
     return (
     <body class="home">
-      <p>Home section starts here</p>
       <ProjectsSection />
     </body>
     )
