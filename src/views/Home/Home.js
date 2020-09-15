@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
 import Heading from '../../components/Heading/Heading';
-import Skills from '../../components/Skills/Skills';
-import Project from '../../components/Project/Project';
+import ProjectsSection from '../../components/ProjectsSection/ProjectsSection';
 import './Home.scss';
 
 class Home extends Component {
@@ -13,9 +12,8 @@ class Home extends Component {
   render() {
     return (
     <body class="home">
-      <p>Hayyyyyyyyy</p>
-      <Skills />
-      <Project />
+      <p>Home section starts here</p>
+      <ProjectsSection />
     </body>
     )
   }

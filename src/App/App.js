@@ -11,14 +11,15 @@ class App extends Component {
     return(
       <div>
         <Heading />
-        <Switch>
+        <Home />
+        {/* <Switch>
           <Route path='/resume'>
             <Resume />
           </Route>
           <Route exact path='/' >
             <Home />
           </Route>
-        </Switch>
+        </Switch> */}
    
       </div>
     )

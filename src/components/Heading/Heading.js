@@ -3,7 +3,7 @@ import './Heading.scss';
 import { imageObject } from '../../assets/images/imageObject';
 import { Link } from 'react-router-dom';
 
-const Heading = (props) => {
+const Heading = () => {
   return (
     <header className="header">
       <div className="header__nav">
@@ -25,26 +25,29 @@ const Heading = (props) => {
           </Link>
         </div>
       </div>
+
+      
       <div className="header__text-box">
-          <h1 className="heading-primary">
-              <span className="heading-primary--main">
-                Victor Abraham
-              </span>
-              <span className="heading-primary--sub">
-                -
-              </span>
-              <span className="heading-primary--sub">
-                Frontend Engineer
-              </span>
-              <span className="heading-primary--sub">
-                & UI Developer
-              </span>
-          </h1>
+        <h1 className="heading-primary">
+          <span className="heading-primary--main">
+            Victor Abraham
+          </span>
+          <span className="heading-primary--sub">
+            -
+          </span>
+          <span className="heading-primary--sub">
+            Web Developer &
+          </span>
+          <span className="heading-primary--sub">
+            Software Engineer
+          </span>
+        </h1>
       </div>
       <div className="header__button-box">
-            <a href="#" className="btn btn--work btn--animated">↓ View My Work ↓</a>
-          </div>
+        <a href="#" className="btn btn--work btn--animated">↓ View My Work ↓</a>
+      </div>
     </header>
+    
   )
 }
 
