@@ -1,0 +1,28 @@
+@import '../../variables';
+
+.project {
+  text-align: center;
+  h3 {
+    font-size: 3rem;
+    color: $white-color;
+    font-family: $font-sans-serif;
+  }
+  img {
+    max-width: 76%;
+    border-radius: 2px;
+  }
+
+  p {
+    max-width: 80%;
+    margin: auto;
+  }
+
+  &__description {
+    font-size: 1.6rem;
+    color: $white-color;
+  }
+
+  &__repo {
+
+  }
+}

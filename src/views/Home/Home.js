@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import Heading from '../../components/Heading/Heading';
+import ProjectsSection from '../../components/ProjectsSection/ProjectsSection';
 import './Home.scss';
 
 class Home extends Component {
@@ -11,7 +12,7 @@ class Home extends Component {
   render() {
     return (
     <body class="home">
-      <Heading/>
+      <ProjectsSection />
     </body>
     )
   }

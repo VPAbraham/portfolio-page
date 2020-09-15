@@ -1,30 +1,38 @@
-$black-color: rgb(31, 31, 31);
-$white-color: rgb(230, 230, 230);
-$color-grey-dark: #777;
-
-$font-serif: 'Playfair Display', serif;
-$font-sans-serif: 'Montserrat', sans-serif;
-
+@import '../../variables';
 
 .header {
-  // background: $black-color;
   color: $white-color;
   font-size: 4rem;
   position: relative;
-  height: 95vh;
+  height: 100vh;
   background-position: top;
   background-size: cover;
+  background-image: linear-gradient(
+    to right bottom,
+    rgba(rgb(67, 67, 67), .6),
+    rgba(rgb(10, 10, 10), .7)),
+    url(../../assets/images/working.jpg);
 
   &__nav {
     display: flex;
     justify-content: space-between;
-    font-family: 'Montserrat', sans-serif;
-    font-size: 2.2rem;
+    font-family: $font-sans-serif;
+    font-size: 2rem;
     letter-spacing: .3rem;
     text-transform: uppercase;
     animation: moveInTop 1s ease-out;
-    &__left {
+    padding: 2rem;
+    background-color: rgba(34, 34, 34, 0.577);
 
+
+    &__left {
+      color: $red-color;
+    }
+
+
+    &__left:link {
+      color: $red-color;
+      text-decoration: none;
     }
 
     &__right {
@@ -48,6 +56,10 @@ $font-sans-serif: 'Montserrat', sans-serif;
     left: 50%;
     transform: translate(-50%, -50%);
     text-align: center;
+    background-size: cover;
+    background-position: top;
+    width: 50%;
+    height: 35vh;
   }
 }
 
@@ -61,7 +73,7 @@ $font-sans-serif: 'Montserrat', sans-serif;
 
   &--main {
     display: block;
-    font-size: 7rem;
+    font-size: 6rem;
     font-weight: 700;
     letter-spacing: 3.5rem;
   
@@ -75,7 +87,7 @@ $font-sans-serif: 'Montserrat', sans-serif;
   
   &--sub {
     display: block;
-    font-size: 2.3rem;
+    font-size: 3rem;
     font-weight: 400;
     letter-spacing: 1.75rem;
   
@@ -166,14 +178,14 @@ $font-sans-serif: 'Montserrat', sans-serif;
     border-radius: 10rem;
     transition: all .2s;
     position: relative;
-    font-size: 1.7rem;
+    font-size: 2.3rem;
     font-family: 'Montserrat', sans-serif;
     font-weight: 500;
   }
 
   &:hover {
-    transform: translateY(-3px);
-    box-shadow: 0 1rem 2rem rgba(black, .2);
+    transform: translateY(-5px);
+    // box-shadow: 0 1rem 2rem rgba(black, .2);
 
     &::after {
       transform: scaleX(1.4) scaleY(1.6)
@@ -185,8 +197,7 @@ $font-sans-serif: 'Montserrat', sans-serif;
   }
 
   &--work {
-    background-color: $white-color;
-    color: rgb(83, 83, 83);
+    color: $red-color;
 
     &::after {
       background-color: $white-color;
@@ -199,27 +210,12 @@ $font-sans-serif: 'Montserrat', sans-serif;
   }
 }
 
-.header__skills-box {
-  position: relative;
-  top: 76vh;
-
-  p {
-    text-transform: uppercase;
-    font-family: $font-sans-serif;
-    display: block;
-    margin: auto;
-  }
-
-  .skills-logos-box {
-    display: flex;
-    position: absolute;
-    left: 50%;
-    top: 20px;
-    .skill-logo {
-      height: 3rem;
-      position: absolute;
-    }
-  }
+.header__button-box {
+  position: absolute;
+  bottom: 5vh;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
-
-
