@@ -9,7 +9,13 @@ const About = () => {
     <div className='about'>
       <p>ABOUT PAGE</p>
       <Link to='/'>BACK</Link>
-      <img src={victorImg} alt='Headshot of Victor Abraham.'/>
+      <section>
+        <div>
+          <h2>I design & build</h2>
+          <h2>digital products</h2>
+        </div>
+        <img src={victorImg} alt='Headshot of Victor Abraham.'/>
+      </section>
     </div>
   )
 }
