@@ -12,6 +12,7 @@ class Home extends Component {
   render() {
     return (
     <body class="home">
+      <Heading />
       <ProjectsSection />
     </body>
     )

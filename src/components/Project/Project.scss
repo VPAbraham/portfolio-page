@@ -5,10 +5,12 @@
   h3 {
     font-size: 3rem;
     color: $white-color;
-    font-family: $font-sans-serif;
+    font-family: $font-accent;
+    font-weight: 400;
   }
   img {
-    max-width: 76%;
+    max-height: 20rem;
+    width: auto;
     border-radius: 2px;
   }
 
@@ -18,11 +20,11 @@
   }
 
   &__description {
-    font-size: 1.6rem;
+    font-size: 1.5rem;
     color: $white-color;
   }
 
-  &__repo {
-
+  a {
+    font-size: 1.8rem;
   }
 }

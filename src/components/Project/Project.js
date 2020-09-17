@@ -8,8 +8,8 @@ const Project = (props) => {
       <h3>{name}</h3>
       <img src={previewImg} alt={name}/>
       <p className='project__description'>{description}</p>
-      <a href={deplink} className='project__link'><p>Click to view application</p></a>
-      <a href={ghlink} className='project__repo'><p>Github repository</p></a>
+      <a href={deplink} className='project__link' target="_blank"><p>Click to view application</p></a>
+      <a href={ghlink} className='project__repo' target="_blank"><p>Github repository</p></a>
     </div>
   )
 }

@@ -1,0 +1,27 @@
+@import '../../variables';
+
+.about {
+  text-align: center;
+
+  section {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 80vh;
+    div {
+      h2 {
+        font-family: $font-sans-serif;
+        font-size:8rem;
+        color: $white-color;
+      }
+    }
+
+    img {
+      border-radius: 50%;
+      height: 42rem;
+      box-shadow: 10px -5px 24px -6px rgba(20,20,20,1);
+
+    }
+  }
+
+}
