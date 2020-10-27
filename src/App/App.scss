@@ -19,6 +19,11 @@ a {
   text-decoration: none;
 }
 
+a:link {
+  text-decoration: none;
+  color: rgb(247, 71, 78);
+}
+
 a:visited {
   color: rgb(247, 71, 78);
 }
