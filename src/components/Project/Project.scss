@@ -2,20 +2,21 @@
 
 .project {
   text-align: center;
+
   h3 {
-    font-size: 3rem;
+    font-size: 3.2rem;
     color: $white-color;
     font-family: $font-accent;
     font-weight: 400;
   }
   img {
-    max-height: 20rem;
+    max-height: 30rem;
     width: auto;
     border-radius: 2px;
   }
 
   p {
-    max-width: 80%;
+    max-width: 57%;
     margin: auto;
   }
 
@@ -25,6 +26,6 @@
   }
 
   a {
-    font-size: 1.8rem;
+    font-size: 1.3rem;
   }
 }

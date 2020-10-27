@@ -6,7 +6,7 @@ const Contact = () => {
   return (
     <div>
       <p>Contact page</p>
-      <Link to='/'>BACK</Link>
+      <Link to='/' className='resume-link'>BACK</Link>
     </div>
   )
 }
