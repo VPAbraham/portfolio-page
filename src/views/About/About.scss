@@ -2,6 +2,9 @@
 
 .about {
   text-align: center;
+  height: 100vh;
+  border: solid 20px rgb(39,38,37);
+
 
   section {
     display: flex;
@@ -24,4 +27,7 @@
     }
   }
 
+}
+
+.about-back {
 }

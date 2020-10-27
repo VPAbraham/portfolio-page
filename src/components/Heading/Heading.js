@@ -15,11 +15,11 @@ const Heading = () => {
         </div>
         <div className="header__nav__right">
           <Link to="/about" className="page-link">
-            About
+            About / Contact
           </Link>
-          <Link to="/contact" className="page-link">
+          {/* <Link to="/contact" className="page-link">
             Contact
-          </Link>
+          </Link> */}
           <Link to="/resume" className="page-link">
             Resume
           </Link>

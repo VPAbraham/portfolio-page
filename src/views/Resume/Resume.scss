@@ -4,21 +4,23 @@
   text-align: center;
   margin-top: 3rem;
 
-  .resume-link {
-    font-size: 1.8rem;
-    border: 2px solid $red-color;
-    padding: .8rem;
-    border-radius: 8px;
-  }
-
   h1 {
-    margin-top: 2rem;
+    margin-top: 1rem;
     font-family: $font-serif;
     font-size: 5rem;
     color: $white-color;
   }
 
   img {
-    margin-top: 4rem;
+    margin: 4rem 0;
   }
+}
+
+
+.resume-link { 
+  height: 2rem;
+  font-size: 1rem;
+  border: 2px solid $red-color;
+  padding: .8rem;
+  border-radius: 8px;
 }
