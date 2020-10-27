@@ -31,6 +31,13 @@ const ProjectsSection = () => {
           deplink='https://dimebags-delivery.herokuapp.com/'
           previewImg={dimeImg}
         />
+        <Project 
+          name='Intueat'
+          description='Front page for a web application built in react to rate and hire in-home chefs. Built for UpWork client.' 
+          ghlink='https://github.com/VPAbraham/intueat' 
+          deplink='https://intueat-d673a.web.app/'
+          previewImg={intueatImg}
+        />
         <MultiProject
           name='Palette Picker'
           description='Palette Picker is a React App allows users to view color palettes, name and save them in a PostgreSQL database.'
@@ -54,14 +61,6 @@ const ProjectsSection = () => {
           deplink='http://localhost:3001/'
           previewImg={natoursImg}
         />
-        <Project 
-          name='Intueat'
-          description='Front page for a web application built in react to rate and hire in-home chefs. Built for UpWork client.' 
-          ghlink='https://github.com/VPAbraham/intueat' 
-          deplink='http://localhost:3001/'
-          previewImg={intueatImg}
-        />
-
       </div>
     </section>
   )
