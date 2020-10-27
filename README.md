@@ -1,6 +1,6 @@
-(work in progress) Portfolio site
+A site to display my past, current, and ongoing projects and links to my biographical and contact information.
 
-Simply, a site to display my past, current, and ongoing projects and links to my biographical and contact information.
+Visit the site [at vpabraham.com](https://vpabraham.com)
 
 Completed:
 
