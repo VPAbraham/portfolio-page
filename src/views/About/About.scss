@@ -5,11 +5,11 @@
   border: solid 8rem rgb(39,38,37);
 
 
-  section {
+  .about-top {
     display: flex;
     justify-content: space-evenly;
     align-items: center;
-    height: 80vh;
+    height: 50vh;
     .about-block {
 
       h2 {
@@ -17,28 +17,41 @@
         font-size:8rem;
         color: $white-color;
       }
-      &__text {
-        font-size: 4rem;
-      }
-      &__contact {
-        margin: auto;
-        font-size: 2rem;
-        font-family: $font-accent;
-        color: $white-color;
-        border: 2px solid rgb(201, 66, 66);
-        width: 80%;
-      }
     }
 
     img {
       border-radius: 50%;
-      height: 42rem;
+      height: 36rem;
       box-shadow: 10px -5px 24px -6px rgba(20,20,20,1);
 
     }
   }
 
+  .about-bottom {
+    &__contact {
+      margin: auto;
+      font-size: 2rem;
+      font-family: $font-accent;
+      color: $white-color;
+      border: 2px solid rgb(201, 66, 66);
+      width: 70%; 
+
+      p {
+        margin: .6rem;
+      }
+    }
+
+    &__text {
+      margin: auto;
+      line-height: 2;
+      width: 75%;
+      font-size: 3rem;
+      color: $white-color;
+    }
+
+  }
+
 }
 
-.about-back {
+.about-ba {
 }
