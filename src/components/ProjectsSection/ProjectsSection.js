@@ -7,7 +7,7 @@ import portfolioImg from '../../assets/images/portfolio.png';
 import natoursImg from '../../assets/images/natours.png';
 import pokemonImg from '../../assets/images/pokemon.png';
 import paletteImg from '../../assets/images/palette.png';
-import crwnImg from '../../assets/images/crwn.png';
+import dimeImg from '../../assets/images/dimebags.png';
 
 
 
@@ -25,11 +25,11 @@ const ProjectsSection = () => {
           previewImg={pokemonImg}
         />
         <Project 
-          name='Intueat'
-          description='Front page for a web application built in react to rate and hire in-home chefs. Built for UpWork client.' 
+          name='Dimebags Cannabis Delivery Partner Portal'
+          description='Portal site to enter potential partners into the Dimebags partner database.' 
           ghlink='https://github.com/VPAbraham/intueat' 
-          deplink='http://localhost:3001/'
-          previewImg={intueatImg}
+          deplink='https://dimebags-delivery.herokuapp.com/'
+          previewImg={dimeImg}
         />
         <MultiProject
           name='Palette Picker'
@@ -44,7 +44,7 @@ const ProjectsSection = () => {
           name='Portfolio'
           description='This is the site you are visiting right now!'
           ghlink='https://github.com/VPAbraham/portfolio-page'
-          deplink='vpabraham.com'
+          deplink='http://vpabraham.com'
           previewImg={portfolioImg}
         />
         <Project 
@@ -55,12 +55,13 @@ const ProjectsSection = () => {
           previewImg={natoursImg}
         />
         <Project 
-          name='CRWN Clothing Shop'
-          description='Clothes ecommerce shop' 
+          name='Intueat'
+          description='Front page for a web application built in react to rate and hire in-home chefs. Built for UpWork client.' 
           ghlink='https://github.com/VPAbraham/intueat' 
           deplink='http://localhost:3001/'
-          previewImg={crwnImg}
+          previewImg={intueatImg}
         />
+
       </div>
     </section>
   )
