@@ -26,15 +26,15 @@ const About = () => {
                  When I'm not coding, I am a fantasy football commissioner, a doting dog father, organizer of Catan game nights, an occasional gym-goer, amateur writer, and an audiobook/podcast enthusiast. </p>
           </div>
         <div className='about-bottom__contact'>
-            <p>email: 
-              <a href='mailto:vpa456@gmail.com'>vpa456@gmail.com</a>
-            </p>
             <p>phone: 910.795.7233</p>
+            <p>email:  
+              <a href='mailto:vpa456@gmail.com'> vpa456@gmail.com</a>
+            </p>
             <p>github: 
-              <a href='https://github.com/VPAbraham' target='_blank'>github.com/VPAbraham</a>
+              <a href='https://github.com/VPAbraham' target='_blank'> github.com/VPAbraham</a>
             </p>
             <p>linkedIn: 
-              <a href='https://www.linkedin.com/in/victorpabraham/' target='_blank'>linkedin.com/in/victorpabraham/</a>
+              <a href='https://www.linkedin.com/in/victorpabraham/' target='_blank'> linkedin.com/in/victorpabraham/</a>
             </p>
             
           </div>

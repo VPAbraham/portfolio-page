@@ -18,36 +18,22 @@ const ProjectsSection = () => {
       <h2 className='projects__header'>PROJECTS & APPLICATIONS</h2>
       <div className='projects__section'>
         <Project 
-          name='Great Outdoors Nature Tours'
-          description='- Built out CMS microservice for freelance client`s art gallery, allowing low-tech employees to update site content.' 
-          ghlink='https://github.com/VPAbraham/great-outdoors' 
-          deplink='http://localhost:3001/'
-          previewImg={natoursImg}
-        />
-        <Project 
-          name='CRWN Clothing Shop'
-          description='Clothes ecommerce shop' 
-          ghlink='https://github.com/VPAbraham/intueat' 
-          deplink='http://localhost:3001/'
-          previewImg={crwnImg}
-        />
-        <Project 
           name='Pokémon TCG DB'
-          description='- Built out CMS microservice for freelance client`s art gallery, allowing low-tech employees to update site content.' 
-          ghlink='https://github.com/VPAbraham/intueat' 
+          description='The Pokemon Database utilizes the Pokemon Trading Card Game API to display and allows users to filter through Pokemon cards based on a set of criteria.' 
+          ghlink='https://github.com/VPAbraham/pokemon-database' 
           deplink='https://pokemon-tcg-db.herokuapp.com/'
           previewImg={pokemonImg}
         />
         <Project 
           name='Intueat'
-          description='- Built out CMS microservice for freelance client`s art gallery, allowing low-tech employees to update site content.' 
+          description='Front page for a web application built in react to rate and hire in-home chefs. Built for UpWork client.' 
           ghlink='https://github.com/VPAbraham/intueat' 
           deplink='http://localhost:3001/'
           previewImg={intueatImg}
         />
         <MultiProject
           name='Palette Picker'
-          description=''
+          description='Palette Picker is a React App allows users to view color palettes, name and save them in a PostgreSQL database.'
           felink='https://palette-pick-fe.herokuapp.com/'
           apilink='https://palette-pick-be.herokuapp.com/'
           ghlink1='https://github.com/VPAbraham/palette-picker-FE'
@@ -60,6 +46,20 @@ const ProjectsSection = () => {
           ghlink='https://github.com/VPAbraham/portfolio-page'
           deplink='vpabraham.com'
           previewImg={portfolioImg}
+        />
+        <Project 
+          name='Great Outdoors Nature Tours'
+          description='Nature Tours sample page designed and built from scratch to client specification.' 
+          ghlink='https://github.com/VPAbraham/great-outdoors' 
+          deplink='http://localhost:3001/'
+          previewImg={natoursImg}
+        />
+        <Project 
+          name='CRWN Clothing Shop'
+          description='Clothes ecommerce shop' 
+          ghlink='https://github.com/VPAbraham/intueat' 
+          deplink='http://localhost:3001/'
+          previewImg={crwnImg}
         />
       </div>
     </section>

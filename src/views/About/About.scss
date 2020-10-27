@@ -28,26 +28,40 @@
   }
 
   .about-bottom {
+
+    &__text {
+      margin: auto;
+      margin-bottom: 8rem;
+      line-height: 2;
+      width: 70%;
+      font-size: 3rem;
+      color: $white-color;
+      font-family: $font-sans-serif;
+
+
+      p {
+        text-align: left;
+      }
+    }
+
     &__contact {
       margin: auto;
+      margin-bottom: 8rem;
       font-size: 2rem;
-      font-family: $font-accent;
+      font-family: $font-sans-serif;
       color: $white-color;
       border: 2px solid rgb(201, 66, 66);
-      width: 70%; 
+      width: 70%;
+      text-align: left; 
+      clip-path: polygon(0 0, 88% 0, 100% 100%, 0% 100%);
+
 
       p {
         margin: .6rem;
       }
     }
 
-    &__text {
-      margin: auto;
-      line-height: 2;
-      width: 75%;
-      font-size: 3rem;
-      color: $white-color;
-    }
+  
 
   }
 
