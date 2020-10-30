@@ -27,7 +27,7 @@ const ProjectsSection = () => {
         <Project 
           name='Dimebags Cannabis Delivery Partner Portal'
           description='Portal site to enter potential partners into the Dimebags partner database.' 
-          ghlink='https://github.com/VPAbraham/intueat' 
+          ghlink='https://github.com/VPAbraham/dimebags-forms' 
           deplink='https://dimebags-delivery.herokuapp.com/'
           previewImg={dimeImg}
         />
