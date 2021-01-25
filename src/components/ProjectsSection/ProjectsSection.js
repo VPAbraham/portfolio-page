@@ -27,9 +27,16 @@ const ProjectsSection = () => {
         <Project 
           name='Dimebags Cannabis Delivery Partner Portal'
           description='Portal site to enter potential partners into the Dimebags partner database.' 
-          ghlink='https://github.com/VPAbraham/intueat' 
+          ghlink='https://github.com/VPAbraham/dimebags-forms' 
           deplink='https://dimebags-delivery.herokuapp.com/'
           previewImg={dimeImg}
+        />
+        <Project 
+          name='Intueat'
+          description='Front page for a web application built in react to rate and hire in-home chefs. Built for UpWork client.' 
+          ghlink='https://github.com/VPAbraham/intueat' 
+          deplink='https://intueat-d673a.web.app/'
+          previewImg={intueatImg}
         />
         <MultiProject
           name='Palette Picker'
@@ -54,14 +61,6 @@ const ProjectsSection = () => {
           deplink='http://localhost:3001/'
           previewImg={natoursImg}
         />
-        <Project 
-          name='Intueat'
-          description='Front page for a web application built in react to rate and hire in-home chefs. Built for UpWork client.' 
-          ghlink='https://github.com/VPAbraham/intueat' 
-          deplink='http://localhost:3001/'
-          previewImg={intueatImg}
-        />
-
       </div>
     </section>
   )
