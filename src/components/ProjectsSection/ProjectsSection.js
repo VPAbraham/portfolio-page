@@ -15,8 +15,8 @@ const ProjectsSection = () => {
   return (
     
     <section className='projects'>
-      <h2 className='projects__header'>PROJECTS & APPLICATIONS</h2>
-      <div className='projects__section'>
+    <h2 className='projects__header'>PROJECTS & APPLICATIONS</h2>
+    <div className='projects__section'>
       <Project 
           name='Pokémon TCG DB'
           description='The Pokemon Database utilizes the Pokemon Trading Card Game API to display and allows users to filter through Pokemon cards based on a set of criteria.' 
