@@ -13,7 +13,7 @@ import dimeImg from '../../assets/images/dimebags.png';
 
 const ProjectsSection = () => {
   return (
-  
+    
     <section className='projects'>
       <h2 className='projects__header'>PROJECTS & APPLICATIONS</h2>
       <div className='projects__section'>
@@ -28,7 +28,7 @@ const ProjectsSection = () => {
           name='Dimebags Cannabis Delivery Partner Portal'
           description='Portal site to enter potential partners into the Dimebags partner database.' 
           ghlink='https://github.com/VPAbraham/dimebags-forms' 
-          deplink='https://dimebags-delivery.herokuapp.com/'
+          deplink='https://dimebags-delivery-full.web.app/'
           previewImg={dimeImg}
         />
         <Project 
