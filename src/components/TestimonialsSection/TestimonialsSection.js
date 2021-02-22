@@ -8,7 +8,10 @@ const TestimonialsSection = () => {
     <>
       {
         testimonialImages.map(img => {
-          return (<img src={img} alt='UpWork testimonial screenshot.' /> )
+          return (<img className='test-img'
+            src={img} 
+            alt='UpWork testimonial screenshot.' 
+            /> )
         })
       }
     </>
@@ -18,7 +21,14 @@ const TestimonialsSection = () => {
   return(
     <div className='testimonials'>
       <h2 className='testimonials__header'>TESTIMONIALS</h2>
-      <div className='testimonal__imgs'>
+      <a
+        href='https://www.upwork.com/freelancers/~011fc54692d81440ba'
+        target='_blank'>
+          <span         
+          className='testimonials__link' 
+          >Click here to view my UpWork profile and reviews</span>
+      </a>
+      <div className='testimonials__imgs'>
         {imageCollection()}
       </div>
     </div>
