@@ -3,19 +3,24 @@ import './TestimonialsSection.scss';
 import { testimonialImages }  from '../../data/testimonialImages';
 
 const TestimonialsSection = () => {
-  
+  const imageCollection = () => {
+    return (
+    <>
+      {
+        testimonialImages.map(img => {
+          return (<img src={img} alt='UpWork testimonial screenshot.' /> )
+        })
+      }
+    </>
+    )
+  }
+
   return(
-    <div>
-      <h2>TESTIMONIALS</h2>
-      <p>TESTES</p>
-      <img src={testimonialImages[0]} alt='upwork review image' />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
+    <div className='testimonials'>
+      <h2 className='testimonials__header'>TESTIMONIALS</h2>
+      <div className='testimonal__imgs'>
+        {imageCollection()}
+      </div>
     </div>
   )
 }
