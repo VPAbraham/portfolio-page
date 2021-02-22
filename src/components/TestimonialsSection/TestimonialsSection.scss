@@ -1,0 +1,28 @@
+@import '../../variables.scss';
+
+.testimonials {
+  text-align: center;
+  
+  &__header {
+    font-size: 3rem;
+    margin-bottom: 1.5rem;
+  }
+
+  &__imgs {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    margin-top: 2rem;
+
+
+    .test-img {
+      width: 30%;
+      height: auto;
+      margin: auto;
+      margin-bottom: 2rem;
+      display: block;
+    }
+  }
+
+}

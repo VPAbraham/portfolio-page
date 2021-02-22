@@ -13,11 +13,11 @@ import dimeImg from '../../assets/images/dimebags.png';
 
 const ProjectsSection = () => {
   return (
-  
+    
     <section className='projects'>
-      <h2 className='projects__header'>PROJECTS & APPLICATIONS</h2>
-      <div className='projects__section'>
-        <Project 
+    <h2 className='projects__header'>PROJECTS & APPLICATIONS</h2>
+    <div className='projects__section'>
+      <Project 
           name='Pokémon TCG DB'
           description='The Pokemon Database utilizes the Pokemon Trading Card Game API to display and allows users to filter through Pokemon cards based on a set of criteria.' 
           ghlink='https://github.com/VPAbraham/pokemon-database' 
@@ -26,9 +26,9 @@ const ProjectsSection = () => {
         />
         <Project 
           name='Dimebags Cannabis Delivery Partner Portal'
-          description='Portal site to enter potential partners into the Dimebags partner database.' 
+          description='Portal site to enter potential partners into the Dimebags partner database. Built for UpWork client.' 
           ghlink='https://github.com/VPAbraham/dimebags-forms' 
-          deplink='https://dimebags-delivery.herokuapp.com/'
+          deplink='https://dimebags-delivery-full.web.app/'
           previewImg={dimeImg}
         />
         <Project 
@@ -40,7 +40,7 @@ const ProjectsSection = () => {
         />
         <MultiProject
           name='Palette Picker'
-          description='Palette Picker is a React App allows users to view color palettes, name and save them in a PostgreSQL database.'
+          description='Palette Picker is a React App allows users to view color palettes, name and save them in a PostgreSQL database. Built as a team exercise.'
           felink='https://palette-pick-fe.herokuapp.com/'
           apilink='https://palette-pick-be.herokuapp.com/'
           ghlink1='https://github.com/VPAbraham/palette-picker-FE'
@@ -49,7 +49,7 @@ const ProjectsSection = () => {
         />
         <Project 
           name='Portfolio'
-          description='This is the site you are visiting right now!'
+          description='This is the site you are visiting right now! Solo project.'
           ghlink='https://github.com/VPAbraham/portfolio-page'
           deplink='http://vpabraham.com'
           previewImg={portfolioImg}
